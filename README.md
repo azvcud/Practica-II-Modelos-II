@@ -39,7 +39,7 @@ práctica con el fin de repasar temas adscritos a la programación lógica.
 
 ### Problemas a solucionar
 
-1. **Operaciones con conjuntos**:
+**1. Operaciones con conjuntos**:
 
 Define los siguientes predicados en Prolog para operar con conjuntos representados como listas:
 
@@ -62,7 +62,7 @@ C = [3].
 C = [1, 2].
 
 
-2. **Palíndromos**:
+**2. Palíndromos**:
 
 Define un predicado en Prolog llamado palindromo(L) que sea verdadero si la lista L es un palíndromo (se lee igual de izquierda a derecha que de derecha a izquierda).
 
@@ -75,7 +75,7 @@ true.
 ?- palindromo([a, b, c]).
 false.
 
-3. **Recursión**:
+**3. Recursión**:
 
 Define un predicado en Prolog llamado factorial(N, F) que calcule el factorial de un número entero N. El factorial de un número entero no negativo N, denotado por N!, es el producto de todos los enteros positivos menores o iguales que N. Por ejemplo, 5! = 5 * 4 * 3 * 2 * 1 = 120.
 
@@ -93,6 +93,7 @@ F = 1.
 Para hacer uso del repositorio y el programa:
 
 1. **Instalar SWI-Prolog**
+
 Asegúrate de tener SWI-Prolog instalado en tu sistema. Puedes descargarlo desde su [sitio oficial](https://www.swi-prolog.org/).
 
 2. **Clonar el repositorio**
